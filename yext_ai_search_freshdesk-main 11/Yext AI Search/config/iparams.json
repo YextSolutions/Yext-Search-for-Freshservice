@@ -1,0 +1,26 @@
+{
+    "answersUrl": {
+      "display_name": "Production URL",
+      "description": "Please enter your Yext Answers production URL",
+      "type": "url",
+      "secure": false,
+      "required": true,
+      "visible": true,
+      "default_value": "REPLACE_ME_PRODUCTION_URL",
+      "type_attributes": {
+        "product": "freshdesk"
+      }
+    },
+    "autoFillSearchBar": {
+      "display_name": "Auto Populate Search Bar from Subject?",
+      "description": "Check this option if the ticket subject should populate Yext AI Search",
+      "type": "checkbox",
+      "secure": false,
+      "required": false,
+      "visible": true,
+      "default_value": false,
+      "type_attributes": {
+        "product": "freshdesk"
+      }
+    }
+  }
