@@ -8,7 +8,7 @@
       "visible": true,
       "default_value": "REPLACE_ME_PRODUCTION_URL",
       "type_attributes": {
-        "product": "freshdesk"
+        "product": "freshservice"
       }
     },
     "autoFillSearchBar": {
@@ -20,7 +20,7 @@
       "visible": true,
       "default_value": false,
       "type_attributes": {
-        "product": "freshdesk"
+        "product": "freshservice"
       }
     }
   }

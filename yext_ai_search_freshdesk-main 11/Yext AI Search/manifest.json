@@ -1,17 +1,13 @@
 {
   "platform-version": "2.2",
   "product": {
-    "freshdesk": {
+    "freshservice": {
       "location": {
-        "ticket_conversation_editor": {
-          "url": "index.html",
-          "icon": "styles/images/Yext_Seal_Black.svg"
-        },
         "full_page_app": {
           "url": "index.html",
           "icon": "styles/images/Yext_Seal_White.svg"
         },
-        "cti_global_sidebar": {
+        "ticket_top_navigation": {
           "url": "index.html",
           "icon": "styles/images/Yext_Seal_White.svg"
         }

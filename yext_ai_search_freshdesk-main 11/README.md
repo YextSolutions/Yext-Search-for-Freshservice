@@ -1,6 +1,6 @@
-## Yext AI Search for Freshdesk
+## Yext AI Search for Freshservice
 
-With Yext AI Search, support leaders can empower their agents to drive faster case resolution that increases customer loyalty and satisfaction. By automatically populating the agent's search experience with the ticket subject line, Yext AI Search uses natural language understanding to interpret customers' intent and deliver contextually relevant direct answers for agents to efficiently resolve cases. Get started here and supercharge your search in Freshdesk.
+With Yext Search, support leaders can empower their agents to drive faster case resolution that increases customer loyalty and satisfaction. By automatically populating the agent's search experience with the ticket subject line, Yext Search uses natural language understanding to interpret customers' intent and deliver contextually relevant direct answers for agents to efficiently resolve cases. Get started here and supercharge your search in Freshservice.
 
 * Serves direct answers to agents instead of long-form articles or blue links, powered by Yext's multiple search algorithms, including Extractive Question Answering (QA), which pulls exact answers from within a document or article and surfaces it as a rich snippet
 
@@ -24,4 +24,4 @@ Key Benefits:
 
 * Reduce internal information silos
 
-The Yext AI Search app is free to Yext and Freshdesk customers.
+The Yext Search app is free to Yext and Freshservice customers.
