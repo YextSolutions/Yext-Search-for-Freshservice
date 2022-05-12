@@ -1,0 +1,26 @@
+{
+  "platform-version": "2.1",
+  "product": {
+    "freshservice": {
+      "location": {
+        "full_page_app": {
+          "url": "index.html",
+          "icon": "styles/images/Yext_Seal_White.svg"
+        },
+        "ticket_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/Yext_Seal_Black.svg"
+        },
+        "new_ticket_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/Yext_Seal_Black.svg"
+        },
+        "new_change_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/Yext_Seal_Black.svg"
+        }
+      }
+    }
+  },
+  "whitelisted-domains":[]
+}
