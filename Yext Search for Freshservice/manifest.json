@@ -1,5 +1,5 @@
 {
-  "platform-version": "2.1",
+  "platform-version": "2.2",
   "product": {
     "freshservice": {
       "location": {
@@ -12,6 +12,10 @@
           "icon": "styles/images/Yext_Seal_Black.svg"
         },
         "new_ticket_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/Yext_Seal_Black.svg"
+        },
+        "ticket_conversation_editor": {
           "url": "index.html",
           "icon": "styles/images/Yext_Seal_Black.svg"
         },
