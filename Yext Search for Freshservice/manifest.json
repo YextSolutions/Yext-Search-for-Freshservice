@@ -15,6 +15,10 @@
           "url": "index.html",
           "icon": "styles/images/Yext_Seal_Black.svg"
         },
+        "change_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/Yext_Seal_Black.svg"
+        },
         "new_change_sidebar": {
           "url": "index.html",
           "icon": "styles/images/Yext_Seal_Black.svg"

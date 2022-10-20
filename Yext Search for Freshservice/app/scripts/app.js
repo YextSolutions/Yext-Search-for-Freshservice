@@ -16,6 +16,7 @@ document.onreadystatechange = function() {
 function onAppActivate() {
   resize();
   populateAnswersExperience();
+  listenForResultActions();
 }
 
 function resize() {
@@ -63,6 +64,35 @@ function configureParams(params) {
     let content = document.getElementById("content");
     content.append(answers);
     content.append(script);
+}
+
+function listenForResultActions() {
+  window.addEventListener("message", function(msg) {
+    var msgData = msg['data'];
+    if (msgData['eventType']) {
+      var content = msgData['value'];
+      triggerAction(msgData, content);
+    }
+  });
+}
+
+function triggerAction(msgData, content) {
+  if (msgData['eventType'] == "sendLinkToReply" || msgData['eventType'] == "sendTextToReply") {
+    client.interface.trigger("click", {id: "openReply", text: content}).catch(handleErrResultAction);
+  }
+  if (msgData['eventType'] == "sendLinkToNote" || msgData['eventType'] == "sendTextToNote") {
+    client.interface.trigger("click", {id: "openNote", text: content, isPublic: true}).catch(handleErrResultAction);
+  }
+  if (msgData['eventType'] == "insertLink" || msgData['eventType'] == "insertText") {
+    client.interface.trigger("setValue", {id: "editor", text: content, replace: false, position: "end"}).catch(handleErrResultAction);
+  }
+}
+
+function handleErrResultAction(err) {
+  client.interface.trigger("showNotify", {
+      type: "warning", 
+      message: "Result action unsuccessful. Please try again!"
+    }).catch(console.error(err));
 }
 
 function handleErr(err) {
